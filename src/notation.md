@@ -7,7 +7,7 @@ The following notations are used by the *Lexer* and *Syntax* grammar snippets:
 | Notation          | Examples                      | Meaning                                   |
 |-------------------|-------------------------------|-------------------------------------------|
 | CAPITAL           | KW_IF, INTEGER_LITERAL        | A token produced by the lexer             |
-| _ItalicCamelCase_ | _LetStatement_, _Item_        | A syntactical production                  |
+| _ItalicPascalCase_ | _LetStatement_, _Item_        | A syntactical production                  |
 | `string`          | `x`, `while`, `*`             | The exact character(s)                    |
 | \\x               | \\n, \\r, \\t, \\0            | The character represented by this escape  |
 | x<sup>?</sup>     | `pub`<sup>?</sup>             | An optional item                          |
